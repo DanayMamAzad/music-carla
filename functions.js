@@ -194,7 +194,7 @@ async function playsongyes(client, message, queue, song) {
             .addField("↪️ Autoplay:", `>>> ${queue.autoplay ? "✅" : ":x:"}`, true)
             .addField("🎧 Download Song:", `>>> [\`Click here\`](${song.streamURL})`, true)
             .addField("❔ Filter:", `>>> \`${queue.filter || ":x:"}\``, true)
-            .setFooter(client.user.username + " | by: jano", client.user.displayAvatarURL())
+            .setFooter(client.user.username + " | by: kuka", client.user.displayAvatarURL())
             .setAuthor(message.author.tag, message.member.user.displayAvatarURL({
                 dynamic: true
             }), "")
