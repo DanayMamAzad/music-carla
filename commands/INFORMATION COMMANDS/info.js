@@ -36,23 +36,23 @@ module.exports = {
             )
             .setColor(config.colors.yes)
             .addFields({
-                    name: '<a:jano_10:799629559217389608> BOT TAG',
+                    name: 'BOT TAG',
                     value: `**\`${client.user.tag}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_10:799629559217389608> BOT VERSION',
+                    name: 'BOT VERSION',
                     value: `**\`7.0.0\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_10:799629559217389608> DISCORD.JS VERSION',
+                    name: 'DISCORD.JS VERSION',
                     value: `**\`${version}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_44:840250687610683442> UPTIME',
+                    name: 'UPTIME',
                     value: `**\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_23:840489300327923712> PING',
+                    name: 'PING',
                     value: `**\`${client.ws.ping} ms\`**`,
                     inline: true,
                 }, {
@@ -60,15 +60,15 @@ module.exports = {
                     value: `\u200b`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Server count',
+                    name: 'Server count',
                     value: `**\`${client.guilds.cache.size}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Total members',
+                    name: 'Total members',
                     value: `**\`${totalMembers}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Commands Amount',
+                    name: 'Commands Amount',
                     value: `**\`${client.commands.map(cmd => cmd.name).length}\`**`,
                     inline: true,
                 }, {
@@ -76,27 +76,27 @@ module.exports = {
                     value: `\u200b`,
                     inline: false,
                 }, {
-                    name: "<a:jano_24:840489815548100628> SERVER PREFIX",
+                    name: "SERVER PREFIX",
                     value: `**\`${prefix}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_26:840490585348374538> BOT CHANNELS",
+                    name: "BOT CHANNELS",
                     value: `**${boch}**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_31:834550131658326055> DJ-ROLES",
+                    name: "DJ-ROLES",
                     value: `**${djs}**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_22:840486258362417162> Amount of Commands used",
+                    name: "Amount of Commands used",
                     value: `**\`${client.infos.get("global", "cmds")}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_25:840490568232075264> Amount of Songs played",
+                    name: "Amount of Songs played",
                     value: `**\`${client.infos.get("global", "songs")}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_24:799630717507862558> Amount of Filter added",
+                    name: "Amount of Filter added",
                     value: `**\`${client.infos.get("global", "filters")}\`**`,
                     inline: true,
                 },
@@ -107,11 +107,11 @@ module.exports = {
     `)
 
             .addField("***FOUNDER:***", `
-    >>> <@681553671364018196> 
+    >>> <@810933053123330138> 
     `)
    
         .addField("***SUPPORT***", `
- >>> [\`Server\`](https://discord.gg/FfF3gd4YTF) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=778276774320275487&permissions=0&scope=bot) 
+ >>> [\`Server\`](https://discord.gg/UcBtWVZMw3) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=861185721788268564&permissions=8&scope=bot) 
     `)
         message.channel.send(embed)
     }
