@@ -82,7 +82,7 @@ module.exports = (client) => {
                         inline: true,
                     }, {
                         name: 'Owner and Developer',
-                        value: `** <@681553671364018196>**`,
+                        value: `** <@810933053123330138>**`,
                         inline: true,
                     },
                 )
@@ -90,7 +90,7 @@ module.exports = (client) => {
             \u200b
             `)
                 .addField("***BOT BY:***", `
-            >>> <@681553671364018196> 
+            >>> <@810933053123330138> 
             `)
      
             const helpembed = new Discord.MessageEmbed()
