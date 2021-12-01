@@ -73,7 +73,7 @@ function embedbuilder(client, deletetime, message, color, title, description, th
             .setAuthor(message.author.tag, message.member.user.displayAvatarURL({
                 dynamic: true
             }), "")
-            .setFooter(client.user.username + " | by: jano", client.user.displayAvatarURL());
+            .setFooter(client.user.username + " | by: kuka", client.user.displayAvatarURL());
         if (title) embed.setTitle(title);
         if (description) embed.setDescription(description);
         if (thumbnail) embed.setThumbnail(thumbnail)
