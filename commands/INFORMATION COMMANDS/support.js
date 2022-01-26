@@ -36,7 +36,7 @@ module.exports = {
 		    > **>>** WEBHOSTING
 		    > **>>** TEAMSPEAK SERVERS
 		    > **>>** Linux & Windows Root Servers
-		    [**Link Server:**](https://discord.gg/UcBtWVZMw3)
+		    [**Link Server:**](https://discord.gg/gT8vQCN6XA)
 		   
 		    [**__SPONSOR LINK!__**]()
 		    `)
