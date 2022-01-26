@@ -17,7 +17,7 @@ module.exports = {
 				
 				
 				.setDescription(`
-**[ Link Server ](https://discord.gg/fRjUZYSuWe)**
+**[ Link Server ](https://discord.gg/gT8vQCN6XA)**
 			
 `)
 			)
