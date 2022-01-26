@@ -4,7 +4,7 @@ module.exports = {
     name: "vote",
     aliases: ["rate"],
     category: "INFORMATION COMMANDS",
-    description: "Votes for Hyper Canary",
+    description: "Votes for bot music",
     useage: "vote",
     run: async (client, message, args) => {
         return message.reply(
