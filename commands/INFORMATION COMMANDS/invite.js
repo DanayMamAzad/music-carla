@@ -10,7 +10,7 @@ module.exports = {
         let inviteembed = new Discord.MessageEmbed()
             .setColor(config.colors.yes)
             .setTitle("Invite, Hyper Canary")
-            .setDescription("**[ Invite Me Now , thanks](https://discord.com/api/oauth2/authorize?client_id=861185721788268564&permissions=8&scope=bot)** ")
+            .setDescription("**[ Invite Me Now , thanks](https://discord.com/api/oauth2/authorize?client_id=888610643870093384&permissions=8&scope=bot)** ")
             .setFooter("Hyper Canary", client.user.displayAvatarURL())
 
         message.reply(inviteembed);
