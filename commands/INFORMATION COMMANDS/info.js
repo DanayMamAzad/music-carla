@@ -111,7 +111,7 @@ module.exports = {
     `)
    
         .addField("***SUPPORT***", `
- >>> [\`Server\`](https://discord.gg/UcBtWVZMw3) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=861185721788268564&permissions=8&scope=bot) 
+ >>> [\`Server\`](https://discord.gg/UcBtWVZMw3) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=888610643870093384&permissions=8&scope=bot) 
     `)
         message.channel.send(embed)
     }
