@@ -1,7 +1,7 @@
 {
   "IMPORTANT": "FILL IN THE 4 NEXT PARAMETERS, OTHERWISE SOME THINGS MAY OR MAY NOT WORK COOKIE IS IMPORTNAT!",
   
-  "token": "ODYxMTg1NzIxNzg4MjY4NTY0.YOGHtA.ViYuN2fxNu_4fyxi9eyIDWD_bfI",
+  "token": "https://discord.com/api/oauth2/authorize?client_id=888610643870093384&permissions=8&scope=bot",
   "prefix": "+",
   "ksoftapi": "AIzaSyAaDJPEZpUgLkldIm4zsSJaQdMV4tavlnQ",
   "cookie": "",
