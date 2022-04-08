@@ -30,7 +30,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor(config.colors.yes)
                 .setTitle(`Help Menu\nPrefix: \`${prefix}\``)
-                .setFooter(`To see command descriptions and usage type   ${prefix}help [CMD Name]`, client.user.displayAvatarURL())
+                .setFooter(`To see command descriptions and usage type   ${prefix}help [Country Music]`, client.user.displayAvatarURL())
 
             const commands = (category) => {
                 return client.commands
