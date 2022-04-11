@@ -9,7 +9,7 @@ module.exports = {
     name: "help",
     aliases: ["h"],
     cooldown: 3,
-    category: "INFORMATION COMMANDS",
+    category: "User Commands",
     description: "Returns all commands, or one specific command info",
     useage: "help [Command]",
     run: async (client, message, args) => {
@@ -30,7 +30,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor(config.colors.yes)
                 .setTitle(`Help Menu\nPrefix: \`${prefix}\``)
-                .setFooter(`To see command descriptions and usage type   ${prefix}help [Juba Music]`, client.user.displayAvatarURL())
+                .setFooter(``, client.user.displayAvatarURL())
 
             const commands = (category) => {
                 return client.commands
