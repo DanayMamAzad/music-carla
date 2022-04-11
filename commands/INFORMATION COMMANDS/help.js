@@ -30,7 +30,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor(config.colors.yes)
                 .setTitle(`Help Menu\nPrefix: \`${prefix}\``)
-                .setFooter(`Hoping for a Pleasant time`, client.user.displayAvatarURL())
+                .setFooter(`Hoping for a good time`, client.user.displayAvatarURL())
 
             const commands = (category) => {
                 return client.commands
