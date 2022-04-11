@@ -156,7 +156,7 @@ module.exports = (client) => {
             }
             console.log(err);
             try {
-                return functions.embedbuilder(client, "null", message, config.colors.yes, "**An error encountered:** <a:jano_26:799630865474256972>", "```" + err + "```")
+                return functions.embedbuilder(client, "null", message, config.colors.yes, "**An error encountered:** <a:kuka_26:799630865474256972>", "```" + err + "```")
             } catch (error) {
                 console.error(error)
                 functions.embedbuilder(client, 5000, message, config.colors.no, "**ERROR**<a:kuka_26:799630865474256972> ", "```" + error.toString().substr(0, 100) + "```" + "\n\n**Error got sent to my owner!**")
@@ -165,7 +165,7 @@ module.exports = (client) => {
         })
         .on("finish", message => {
             try {
-                return functions.embedbuilder(client, 5000, message, config.colors.yes, "**Left Channel** <a:jano_26:799630865474256972>", "**There are no more songs left**")
+                return functions.embedbuilder(client, 5000, message, config.colors.yes, "**Left Channel** <a:kuka_26:799630865474256972>", "**There are no more songs left**")
             } catch (error) {
                 console.error(error)
                 functions.embedbuilder(client, 5000, message, config.colors.no, "**ERROR**<a:kuka_26:799630865474256972> ", "```" + error.toString().substr(0, 100) + "```" + "\n\n**Error got sent to my owner!**")
